@@ -33,7 +33,7 @@ public class StudentResult {
     }
 
     public void displayResult() {
-        System.out.println("Application Version: 2.0");
+        System.out.println("Application Version: 1.0");
         System.out.println("\n----- STUDENT RESULT -----");
         System.out.println("Student Name : " + name);
         System.out.println("Marks        : " + marks);
