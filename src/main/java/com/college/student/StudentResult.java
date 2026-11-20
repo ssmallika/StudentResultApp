@@ -14,7 +14,7 @@ public class StudentResult {
     public String calculateGrade() {
 
         if (marks >= 90)
-            return "A";
+            return "S";
 
         else if (marks >= 80)
             return "B";
@@ -33,7 +33,7 @@ public class StudentResult {
     }
 
     public void displayResult() {
-        System.out.println("Application Version: 1.0");
+        System.out.println("Application Version: 2.0");
         System.out.println("\n----- STUDENT RESULT -----");
         System.out.println("Student Name : " + name);
         System.out.println("Marks        : " + marks);
